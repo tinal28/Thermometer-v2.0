@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=Wifi-1
+Removed Pin From Net: NetName=3.3V Pin=Wifi-8
+Change Component Designator: OldDesignator=Reg_3.3V NewDesignator=Reg3.3V
+Change Component Designator: OldDesignator=Reg_5v NewDesignator=Reg5v
+Added Component: Designator=Wifi(XCVR_ESP8266-01/ESP-01)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP8266-01/ESP-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Wifi-1
+Added Pin To Net: NetName=3.3V Pin=Wifi-8
+Added Room: Name=Sheet2

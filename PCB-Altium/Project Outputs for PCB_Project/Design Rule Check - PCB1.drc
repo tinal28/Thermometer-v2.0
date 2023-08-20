@@ -1,0 +1,69 @@
+Protel Design System Design Rule Check
+PCB File : D:\Work\Study materials\3rd sem\BM2210 Biomedical Device Design\Project\dewameter 2.0\PCB_Project\PCB1.PcbDoc
+Date     : 2/14/2023
+Time     : 9:12:07 PM
+
+Processing Rule : Clearance Constraint (Gap=0.203mm) (OnLayer('Top Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.203mm) (OnLayer('Bottom Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.089mm) (Max=2.54mm) (Preferred=0.381mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "Reg3.3V" (20.951mm,7.492mm) on Bottom Overlay And Track (10.8mm,6.85mm)(21.2mm,6.85mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
+Rule Violations :1
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "P1" (1.168mm,9.803mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "Wifi" (148.398mm,23.014mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (122.65mm,22.31mm)(140.65mm,22.31mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (122.65mm,7.91mm)(140.65mm,7.91mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (140.65mm,22.31mm)(147.35mm,22.31mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (140.65mm,7.91mm)(140.65mm,22.31mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (140.65mm,7.91mm)(147.35mm,7.91mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (147.35mm,7.91mm)(147.35mm,22.31mm) on Top Overlay 
+Rule Violations :8
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 9
+Waived Violations : 0
+Time Elapsed        : 00:00:01
